@@ -67,7 +67,8 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
             sendPhotoMessageAsync("step_6_pic");
             sendTextMessageAsync(STEP_6_TEXT,
                     Map.of("¡Lata de sardinas!", "step_6_btn",
-                            "¡Cama nueva!", "step_6_btn"));
+                            "¡Cama nueva!", "step_6_btn",
+                            "¡Taza nueva!", "step_6_btn",));
         }
 
         if (getCallbackQueryButtonKey().equals("step_6_btn")){
